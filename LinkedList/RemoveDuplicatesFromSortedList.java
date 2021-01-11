@@ -13,7 +13,7 @@ public class RemoveDuplicatesFromSortedList {
             if(p.next.val==p.val){
                 p.next=p.next.next;
             }else{
-                p=p.next
+                p=p.next;
             }
         }
         return A;
