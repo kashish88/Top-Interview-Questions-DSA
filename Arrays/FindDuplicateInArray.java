@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class FindDuplicateInArray {
     public int repeatedNumber(final List<Integer> A) {
         Integer tortoise = A.get(0);
