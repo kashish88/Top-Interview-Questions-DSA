@@ -13,7 +13,7 @@
  */
 public class MinDepthOfBinaryTree {
     public int minDepth(TreeNode A) {
-        public int minDepth(TreeNode A) {
+      
             if(A==null)
               return 0; 
          
@@ -30,6 +30,6 @@ public class MinDepthOfBinaryTree {
            int rDepth= minDepth(A.right);
            
            return Math.min(lDepth,rDepth)+1; 
-       }
+       
     }
 }
