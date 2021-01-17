@@ -16,4 +16,5 @@ public class SquareRootOfInteger {
       // if we did not find an exact match the high variable is smaller than low
       // and therefore contains the floor value of sqrt.
       return (int) high;
+    }
 }
