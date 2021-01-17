@@ -5,7 +5,7 @@ public class Permutations {
     Solution(){
         result=new ArrayList<>();
     }
-    public ArrayList<ArrayList<Integer>permute(ArrayList<Integer> A){
+    public ArrayList<ArrayList<Integer>>permute(ArrayList<Integer> A){
         permuteUtil(A,0,A.size());
         return result;
     }
