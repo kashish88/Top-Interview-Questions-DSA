@@ -24,7 +24,7 @@ public class BottomView {
                 if(temp.left!=null){
                     q.add(new Pair(temp.left,hd-1));
                 }
-                if(temp.left!=null){
+                if(temp.right!=null){
                     q.add(new Pair(temp.right,hd+1));
                 }
             }
