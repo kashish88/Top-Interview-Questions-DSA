@@ -12,7 +12,7 @@ public class BottomView {
         ArrayList<Integer>al=new ArrayList<Integer>();
         if(root==null)
             return al;
-            Dequeue<Pair>q=new ArrayDeque<>();
+            Deque<Pair>q=new ArrayDeque<>();
             Map<Integer,Integer>map=new TreeMap<>();
             q.add(new Pair(root,0));
             while(!q.isEmpty()){
